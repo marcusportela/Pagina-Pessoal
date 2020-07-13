@@ -1,0 +1,34 @@
+.titulo {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-style: groove;
+    border-color: black;
+    border-radius: 80px;
+    background-color: black;
+    margin: 10px;
+}
+.index{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-style: groove;
+    background: blue;
+    padding: 10px;
+}
+p {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: center;
+} 
+div{
+    text-align: center;
+}
+#paginainicial {
+    background-color: rgb(114, 114, 231);
+}
+#deonde{
+    background-color: rgb(114, 114, 231);
+}
+#cachorras{
+    background-color: rgb(114, 114, 231);
+}
