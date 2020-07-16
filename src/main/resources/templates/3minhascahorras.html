@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meus Amores</title>
     <!--Aplicando CSS-->
-    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="estilo.css">
     <!--Aplicando Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -27,13 +27,13 @@
          <!--Menu de navegação-->
          <div class="row">
             <div class="col-">
-                <a style="margin-left: 30px;" class="index" href="1index.html">PAGINA INICIAL</a>
+                <a style="margin-left: 30px;" class="index" href="/">PAGINA INICIAL</a>
             </div>
             <div class="col-">
-                <a class="index" href="2deondeeusou.html">DE ONDE EU SOU</a>
+                <a class="index" href="/deondeeusou">DE ONDE EU SOU</a>
             </div>
             <div class="col-">
-                <a class="index" id="cachorras" href="3minhascahorras.html">MEUS AMORES</a>
+                <a class="index" id="/minhascachorras" href="3minhascahorras.html">MEUS AMORES</a>
             </div>
             <div class="col"></div>
         </div>
@@ -56,7 +56,7 @@
             <div class="col"></div>
             <div class="col-">
                 <div>
-                    <img id="dogs" width="450px" src="../IMG/meusamores.jpg" width="350">
+                    <img id="dogs" width="450px" src="meusamores.jpg" width="350">
                 </div>
             </div>
             <div class="col"></div>
