@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class minhascachorras {
-    @GetMapping("/minhascachorras")
+    @GetMapping("/cachorras")
     public String Minhascachorras(){
-        return "3minhascachorras";
+        return "cachorras";
     }
 }
