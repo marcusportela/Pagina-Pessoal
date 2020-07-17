@@ -1,13 +1,13 @@
-package com.programem.teste;
+package com.programem.login;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TesteApplication {
+public class LoginApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TesteApplication.class, args);
+		SpringApplication.run(LoginApplication.class, args);
 	}
 
 }

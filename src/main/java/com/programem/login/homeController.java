@@ -1,12 +1,16 @@
-package com.programem.teste;
+package com.programem.login;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
+
 @Controller
-public class indexController {
+public class homeController {
+
     @GetMapping("/")
-    public String inicial(){
+    public String inicial() {
         return "inicial";
     }
+
+
 }

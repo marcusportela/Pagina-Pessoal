@@ -1,10 +1,10 @@
-package com.programem.teste;
+package com.programem.login;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TesteApplicationTests {
+class LoginApplicationTests {
 
 	@Test
 	void contextLoads() {
